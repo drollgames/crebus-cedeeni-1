@@ -1,4 +1,4 @@
-<p align=center><img src="assets/ng-logo.png"></p>
+<p align=center><img src="/assets/ng-logo.png"></p>
 
 # Ngrok (Graphic interface)
 
