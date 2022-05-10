@@ -15,7 +15,7 @@
 2. Instale a interface: 
 
 ```
-./crab ver ngrok-gfx
+./crab -d ngrok-gfx
 ```
 
 3. Inicie o programa:
