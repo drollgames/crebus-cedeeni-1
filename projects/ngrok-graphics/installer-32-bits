@@ -1,0 +1,38 @@
+# .......................................
+# [Esse projeto foi descontinudo]       .
+# .......................................
+#                                       .
+# Pode não funcionar corretamente       .
+#                                       .
+# .......................................
+#                                       .
+# Não Oferecemos suporte a esse projeto .
+#                                       .
+# .......................................
+
+
+# Aviso:
+echo "[Aviso]: Recomendamos não utilizar esse instalador"
+
+# Baixando Interface:
+wget https://cdn-1.crabs.ml/pkg/ngrok-gfx-32-bits/latest
+unzip ngk-gfx-32.zip
+
+# Obtendo Permissão:
+
+sudo chmod 700 ngrok-gfx
+
+# Iniciando configurações:
+
+./ngrok-gfx --add *
+
+# Tornando um comando padrão:
+
+./ngrok-gfx --default-command
+
+# Iniciando app
+ngrok-gfx start
+
+# Instalado: 
+echo "[Ngrok-gfx-32-bits]: Instalado"
+
