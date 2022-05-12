@@ -1,0 +1,7 @@
+curl https://os.crabs.ml/api/v1/warn/latest
+echo "[CrabOS@1.2.0-Client]"
+echo "atualizando inicializador..."
+unlink cbos
+wget https://cdn-1.crabs.ml/bin/1000/cbos
+echo "Iniciando sistema..."
+pm2 index.js
